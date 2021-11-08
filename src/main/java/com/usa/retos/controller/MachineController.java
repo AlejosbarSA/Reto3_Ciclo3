@@ -28,7 +28,7 @@ public class MachineController {
         return machineService.getMachine(id);
     }
 
-    @PostMapping("/save")
+    @PostMapping("/all")
     @ResponseStatus(HttpStatus.CREATED)
     public Machine save(@RequestBody Machine machine) {
 
